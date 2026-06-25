@@ -80,7 +80,7 @@ def main():
         col_img, col_res = st.columns([1, 1])
 
         with col_img:
-            st.image(image, caption="Uploaded image", use_container_width=True)
+            st.image(image, caption="Uploaded image")
 
         with col_res:
             with st.spinner("Analysing image…"):
